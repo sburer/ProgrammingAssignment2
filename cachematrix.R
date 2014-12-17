@@ -1,7 +1,8 @@
-## Put comments here that give an overall description of what your
-## functions do
+## These functions implement the caching of a matrix inverse
+## through a special "matrix" class.
 
-## Write a short comment describing this function
+## This function creates a "matrix" with the special "matrix" class. The
+## input is of class matrix.
 
 makeCacheMatrix <- function(x = matrix()) {
   
@@ -28,7 +29,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## This function calculates, caches, and retrieves the matrix inverse
 
 cacheSolve <- function(x, ...) {
   
